@@ -1,0 +1,70 @@
+body {font-family: 'Ubuntu', sans-serif;}
+
+/*.title {background-color: red;}*/
+/*.navigation {background-color: tan;}*/
+/*.wrapper {background-color: blue;}*/
+
+.logo {position: fixed;
+	top:-8px;
+	left:-84px;
+    -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+    width:333px;
+}
+
+.title {grid-area:titlegrid;
+	padding-left:250px;
+	background-color: goldenrod;
+	/*position: fixed;*/
+}
+
+h1{
+	font-family: 'Lobster', cursive;
+	font-size: 100px;
+	margin:0;
+	color: white;
+}
+
+.navigation {grid-area: navgrid;
+	margin: 0 10px 0 15px;
+	padding:30px 20px;
+	border: 10px double goldenrod;
+	border-top: none;
+	border-radius: 0 0 0 30px;
+	/*position: fixed;*/
+	float: left;
+}
+
+.navigation a {
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	color:black;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.navigation a:hover {
+	color:goldenrod;
+}
+
+.wrapper {grid-area: contentgrid;
+	margin: 0 25px 20px 5px;
+	padding:15px;
+	border: 10px double goldenrod;
+	border-radius: 0 30px 30px 30px;
+}
+
+.gridcontainer {
+	display: grid;
+	grid-template-columns: 200px auto;
+	grid-template-areas:
+		'titlegrid titlegrid'
+		'navgrid .'
+		'navgrid contentgrid'
+		'. contentgrid';
+	grid-template-rows: 115px 20px 120px auto;
+}
