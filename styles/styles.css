@@ -63,14 +63,3 @@ h1{
 	border: 10px double goldenrod;
 	border-radius: 0 30px 30px 30px;
 }
-
-.gridcontainer {
-	display: grid;
-	grid-template-columns: 200px auto;
-	grid-template-areas:
-		'titlegrid titlegrid'
-		'navgrid .'
-		'navgrid contentgrid'
-		'. contentgrid';
-	grid-template-rows: 115px 20px 120px auto;
-}

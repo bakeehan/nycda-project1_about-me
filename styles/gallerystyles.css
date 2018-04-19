@@ -1,0 +1,31 @@
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: space-between;
+	padding: 0;
+}
+
+.gal {
+	margin: 15px;
+	width:150px;
+	height:150px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 5px solid goldenrod;
+	overflow:hidden;
+}
+
+.gal img {
+	min-height:150px;
+	max-width: 110%;
+}
+
+/*.img1 {background-image: url('../images/lleu2.png');}*/
+/*.img2 {background-image: url('../images/doorway.png');}
+.img3 {background-image: url('../images/inkblot.png');
+	background-position: top;}
+.img4 {background-image: url('../images/door.png');}
+.img5 {background-image: url('../images/lleu1.jpg');}*/
