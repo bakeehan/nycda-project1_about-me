@@ -1,9 +1,5 @@
 body {font-family: 'Ubuntu', sans-serif;}
 
-/*.title {background-color: red;}*/
-/*.navigation {background-color: tan;}*/
-/*.wrapper {background-color: blue;}*/
-
 .logo {position: fixed;
 	top:-8px;
 	left:-84px;
@@ -14,12 +10,19 @@ body {font-family: 'Ubuntu', sans-serif;}
         filter: FlipH;
         -ms-filter: "FlipH";
     width:333px;
+    z-index: 1;
 }
 
-.title {grid-area:titlegrid;
+.title, .navigation {
+	position:fixed;
+}
+
+.title {
+	width:100%;
 	padding-left:250px;
 	background-color: goldenrod;
-	/*position: fixed;*/
+	height:115px;
+	top:0;
 }
 
 h1{
@@ -29,14 +32,14 @@ h1{
 	color: white;
 }
 
-.navigation {grid-area: navgrid;
+.navigation {
 	margin: 0 10px 0 15px;
 	padding:30px 20px;
 	border: 10px double goldenrod;
 	border-top: none;
 	border-radius: 0 0 0 30px;
-	/*position: fixed;*/
-	float: left;
+	top:115px;
+	width:80px;
 }
 
 .navigation a {
@@ -50,10 +53,13 @@ h1{
 .navigation a:hover {
 	color:goldenrod;
 }
+.navigation a:last-of-type {
+	margin-bottom:0;
+}
 
-.wrapper {grid-area: contentgrid;
-	margin: 0 25px 20px 5px;
-	padding:15px;
+.wrapper {
+	margin: 150px 30px 50px 180px;
+	padding: 15px;
 	border: 10px double goldenrod;
 	border-radius: 0 30px 30px 30px;
 }
