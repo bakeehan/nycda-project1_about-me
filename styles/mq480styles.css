@@ -1,6 +1,6 @@
 @media all and (max-width: 480px) {
 
-	.logo, .hqimg, .batimg3 {display: none;}
+	.logo, .hqimg, .batimg3c {display: none;}
 
 	.title {
 		padding:0;
@@ -25,7 +25,7 @@
 
 	.firstgal {margin-top:115px;}
 
-	.batimg1, .batimg2 {
+	.batimg1c, .batimg2c {
 		width:44%;
 		margin: 5px;
 	}

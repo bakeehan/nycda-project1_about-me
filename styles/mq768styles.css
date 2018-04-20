@@ -46,9 +46,12 @@
 		background-size: 140%;
 	}
 
-	.mobilecenter {text-align: center;}
+	.mobilecenter {
+		text-align: center;
+		display: block;
+	}
 
-	.batimg1, .batimg2, .batimg3 {
+	.batimg1c, .batimg2c, .batimg3c {
 		width:100px;
 		display:inline-block;
 		margin:10px 15px;
@@ -63,5 +66,7 @@
 		width:45%;
 		/*height:175px;*/
 	}
+
+	.batimg1, .batimg2, .batimg3 {display:none;}
 
 }

@@ -6,6 +6,8 @@
 	background-position: center;
 }
 
+.mobilecenter {display:none;}
+
 .text {text-align: justify;}
 .leftcol {margin-right:20px;}
 
@@ -27,17 +29,17 @@
 	background-size: 110%;
 }
 
-.batimg1 {
+.batimg1, .batimg1c {
 	grid-area: btimg1;
 	background-image: url("../images/projects/bt_props.jpg");
 	height: 100px;
 }
-.batimg2 {
+.batimg2, .batimg2c {
 	grid-area: btimg2;
 	background-image: url("../images/projects/bt_jacket.jpg");
 	height: 100px;
 }
-.batimg3 {
+.batimg3, .batimg3c {
 	grid-area: btimg3;
 	background-image: url("../images/projects/bt_desk.jpg");
 	height: 100px;
