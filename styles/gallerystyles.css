@@ -11,9 +11,9 @@
 	margin: 15px;
 	width:150px;
 	height:150px;
-	background-size: cover;
+	/*background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center;*/
 	border: 5px solid goldenrod;
 	overflow:hidden;
 }
@@ -21,6 +21,7 @@
 .gal img {
 	min-height:150px;
 	max-width: 110%;
+	min-width: 100%;
 }
 
 /*.img1 {background-image: url('../images/lleu2.png');}*/

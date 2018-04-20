@@ -43,7 +43,7 @@
 	.leftcol {margin:0;}
 
 	.img {margin:10px auto;}
-	
+
 	.tfsnimg2 {
 		max-width: 470px;
 		background-size: 140%;
@@ -59,5 +59,12 @@
 
 	.hqimg {
 		max-width: 440px;}
+
+	.gal {
+		margin:1%;
+		float: left;
+		width:45%;
+		/*height:175px;*/
+	}
 
 }
