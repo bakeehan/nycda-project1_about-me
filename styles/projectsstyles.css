@@ -25,8 +25,8 @@
 	background-image: url("../images/projects/sn_script.png");
 	background-position: bottom;
 	margin-top:20px;
-	height: 70px;
-	background-size: 110%;
+	height: 110px;
+	background-size: 150%;
 }
 
 .batimg1, .batimg1c {
@@ -57,17 +57,12 @@
 	grid-template-columns: 3fr 100px 1fr 2fr;
 	grid-template-areas:
 		'header header header header'
-		'tfsn . bats bats'
-		'tfsn btimg3 bats bats'
+		/*'tfsn . bats bats'*/
+		/*'tfsn btimg3 bats bats'*/
 		'tfsn btimg1 bats bats'
 		'tfsn btimg2 bats bats'
-		'tfsn larp larp larp'
-		/*'tfsn larp larp larp'*/
-		/*'. larp larp larp'*/
-		/*'snimg2 larp larp larp'*/
-		/*'harley larp larp larp'*/
-		'harley larp larp larp';
+		'tfsn larp larp larp';
 	grid-column-gap: 10px;
 	grid-row-gap: 10px;
-	grid-template-rows: auto auto 100px 100px 100px auto auto;
+	grid-template-rows: auto 100px 100px auto ;
 }
