@@ -1,8 +1,5 @@
 @media all and (max-width: 768px) {
 
-
-	body {background-color: red;}
-
 	.navigation {
 		width:100%;
 		background-color: goldenrod;

@@ -3,6 +3,29 @@
 
 	body {background-color: blue;}
 
+	.logo {display: none;}
 
+	.title {
+		padding:0;
+		text-align: center;
+		height:65px;
+	}
+
+	.navigation {top:65px;}
+
+	h1 {font-size: 50px;}
+
+	.wrapper {margin:85px auto 10px auto;}
+
+	.gal {
+		float:none;
+		width:300px;
+		margin:20px auto;
+		height:300px
+	}
+
+	.gal img {min-height: 300px;}
+
+	.firstgal {margin-top:115px;}
 
 }
