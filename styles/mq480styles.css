@@ -1,9 +1,6 @@
 @media all and (max-width: 480px) {
 
-
-	body {background-color: blue;}
-
-	.logo {display: none;}
+	.logo, .hqimg, .batimg3 {display: none;}
 
 	.title {
 		padding:0;
@@ -27,5 +24,14 @@
 	.gal img {min-height: 300px;}
 
 	.firstgal {margin-top:115px;}
+
+	.batimg1, .batimg2 {
+		width:44%;
+		margin: 5px;
+	}
+
+	.img {border: 2px solid goldenrod;}
+
+	.tfsnimg2 {background-size:190%;}
 
 }
