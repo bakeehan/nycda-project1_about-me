@@ -32,4 +32,11 @@
 		font-size: 60px;
 	}
 
+	.wrapper {
+		margin:105px auto 20px auto;
+		width:85%;
+		min-width:1px;
+		border:none;
+	}
+
 }
