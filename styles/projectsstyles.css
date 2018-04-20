@@ -1,7 +1,72 @@
+.headermaj {grid-area:header;}
+
+.img {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.text {text-align: justify;}
+.leftcol {margin-right:20px;}
+
+.tfsn {grid-area: tfsn;}
+.bats {grid-area: bats;}
+.larp {grid-area: larp;}
+.hquinn {grid-area: harley;}
+
+.tfsnimg1 {
+	grid-area: snimg1;
+	background-image: url("../images/projects/sn_logo.png");
+}
+.tfsnimg2 {
+	/*grid-area: snimg2;*/
+	background-image: url("../images/projects/sn_script.png");
+	background-position: bottom;
+	margin-top:20px;
+	height: 70px;
+	background-size: 110%;
+}
+
+.batimg1 {
+	grid-area: btimg1;
+	background-image: url("../images/projects/bt_props.jpg");
+	height: 100px;
+}
+.batimg2 {
+	grid-area: btimg2;
+	background-image: url("../images/projects/bt_jacket.jpg");
+	height: 100px;
+}
+.batimg3 {
+	grid-area: btimg3;
+	background-image: url("../images/projects/bt_desk.jpg");
+	height: 100px;
+}
+
+.hqimg {
+	grid-area: hqimg;
+	background-image: url("../images/projects/hq_snap.jpg");
+	height: 150px;
+}
+
 .wrapper {
+	/*padding:10px 20px;*/
 	display: grid;
-	grid-template-columns: ;
+	grid-template-columns: 3fr 100px 1fr 2fr;
 	grid-template-areas:
-		' ';
-	grid-template-rows: ;
+		'header header header header'
+		'tfsn . bats bats'
+		'tfsn btimg3 bats bats'
+		'tfsn btimg1 bats bats'
+		'tfsn btimg2 bats bats'
+		'tfsn larp larp larp'
+		/*'tfsn larp larp larp'*/
+		/*'. larp larp larp'*/
+		/*'snimg2 larp larp larp'*/
+		'harley larp larp larp'
+		'harley larp larp larp'
+		'harley hqimg hqimg .';
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	grid-template-rows: auto auto 100px 100px 100px auto auto auto auto;
 }
