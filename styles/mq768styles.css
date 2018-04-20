@@ -1,0 +1,35 @@
+@media all and (max-width: 768px) {
+
+
+	body {background-color: red;}
+
+	.navigation {
+		width:100%;
+		background-color: goldenrod;
+		border-radius: 0;
+		margin:0;
+		padding:0;
+		text-align: center;
+		top:75px;
+	}
+
+	.navigation a {
+		display: inline;
+		margin: 0 20px;
+	}
+
+	.logo {
+		/*left: -65px;*/
+		width:210px;
+	}
+
+	.title {
+		padding-left: 130px;
+		height:75px;
+	}
+
+	h1 {
+		font-size: 60px;
+	}
+
+}
