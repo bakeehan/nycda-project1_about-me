@@ -65,10 +65,9 @@
 		/*'tfsn larp larp larp'*/
 		/*'. larp larp larp'*/
 		/*'snimg2 larp larp larp'*/
-		'harley larp larp larp'
-		'harley larp larp larp'
-		'harley hqimg hqimg .';
+		/*'harley larp larp larp'*/
+		'harley larp larp larp';
 	grid-column-gap: 10px;
 	grid-row-gap: 10px;
-	grid-template-rows: auto auto 100px 100px 100px auto auto auto auto;
+	grid-template-rows: auto auto 100px 100px 100px auto auto;
 }
