@@ -28,15 +28,36 @@
 		height:75px;
 	}
 
-	h1 {
-		font-size: 60px;
-	}
+	h1 {font-size: 60px;}
+
+	h3 {margin-top:25px;}
 
 	.wrapper {
 		margin:105px auto 20px auto;
 		width:85%;
 		min-width:1px;
 		border:none;
+		display: block;
 	}
+
+	.leftcol {margin:0;}
+
+	.img {margin:10px auto;}
+	
+	.tfsnimg2 {
+		max-width: 470px;
+		background-size: 140%;
+	}
+
+	.mobilecenter {text-align: center;}
+
+	.batimg1, .batimg2, .batimg3 {
+		width:100px;
+		display:inline-block;
+		margin:10px 15px;
+	}
+
+	.hqimg {
+		max-width: 440px;}
 
 }
